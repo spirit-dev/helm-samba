@@ -1,0 +1,11 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ template "sambaContext.name" . }}-internal-a
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: {{ .Values.sambaContext.ingress.hostname }}
+    external-dns.alpha.kubernetes.io/target: {{ .Values.samba.service.main.loadBalancerIP }}
+spec:
+  ingressClassName: {{ .Values.sambaContext.ingress.class }}
+  rules:
+  - host: {{ .Values.sambaContext.ingress.hostname }}
