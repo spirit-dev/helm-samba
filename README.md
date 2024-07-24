@@ -1,5 +1,7 @@
 # Welcome to samba
 
+[![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=samba-turingpi&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/samba-turingpi)
+
 ## Table of content
 
 - [Welcome to samba](#welcome-to-samba)
