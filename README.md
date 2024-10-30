@@ -4,10 +4,7 @@
 
 ## Table of content
 
-- [Welcome to samba](#welcome-to-samba)
-  - [Table of content](#table-of-content)
-  - [Installation process](#installation-process)
-  - [Connection process](#connection-process)
+[[_TOC_]]
 
 ## Installation process
 
