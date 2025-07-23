@@ -1,3 +1,9 @@
+sambaContext:
+  nameOverride:
+  ingress:
+    class:
+    hostname:
+
 samba:
   #
   # IMPORTANT NOTE
@@ -62,18 +68,18 @@ samba:
       # -- Samba configuration. See [image documentation](https://github.com/crazy-max/docker-samba#configuration) for more information.
       # @default -- See values.yaml
       data:
-        config.yml: |
+        config.yml: | # pragma: allowlist secret
           auth:
             - user: foo
               group: foo
               uid: 1000
               gid: 1000
-              password: bar
+              password:
             - user: baz
               group: xxx
               uid: 1100
               gid: 1200
-              password: foobar
+              password:
 
           global:
             - "force user = foo"
