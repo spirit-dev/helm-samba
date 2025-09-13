@@ -16,7 +16,7 @@ samba:
     # -- image repository
     repository: ghcr.io/crazy-max/samba
     # -- image tag
-    tag: 4.15.5
+    tag: 4.21.4
     # -- image pull policy
     pullPolicy: Always
 
