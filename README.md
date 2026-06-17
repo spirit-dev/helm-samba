@@ -1,12 +1,6 @@
 # samba
 
-<!-- More info: https://github.com/Ileriayo/markdown-badges -->
-<!-- More info: https://shields.io/badges -->
-<!-- More info: https://badgesgenerator.com/ -->
 
-[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-samba-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/helm-samba) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-samba-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/helm-samba)
-[![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=samba-turingpi&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/samba-turingpi)
 
 <!--TOC-->
 
@@ -35,4 +29,4 @@ The installation should be done in two steps:
 > Get connected to: smb://192.168.0.39/transmission
 
 In case of an issue with a user not able to crud folder/files
-Jump in the samba pod shell and run `chmod 777 /<folder>`
+Jump in the samba pod shell and run `chmod 777 /<folder>
